@@ -86,3 +86,46 @@ button {
 p {
     font-family: Arial, Helvetica, sans-serif;
 }
+/* ändra list ikon */
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+li::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url('img/lsicon--picture-outline.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-right: 1rem;
+    background-color: #d6d6d6;
+    padding: 0.5rem;
+}
+
+button {
+    padding: 1rem;
+}
+
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
