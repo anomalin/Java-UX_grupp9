@@ -47,3 +47,28 @@
     border-radius: 10px;
 }
 
+/* ändra list ikon */
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+li::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url('img/lsicon--picture-outline.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
