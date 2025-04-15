@@ -9,44 +9,86 @@
 </head>
 
 <body>
-    <div class="head"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#d6d6d6" class="bi bi-circle-fill" viewBox="0 0 16 16">
-        <circle cx="8" cy="8" r="8"/>
-      </svg></div>
-        <div class="main-content">
-            <div class="upload">
-                <div class="box">
-                    <p>Upload</p>
-                </div>
-                <div>
-                    <ul>
-                        <p>10 filer valda</p>
-                        <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                        <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                        <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                        <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                        <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                        <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                        <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                        <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                        <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                        <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                    </ul>
-                </div>
+    <div class="head"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#d6d6d6"
+            class="bi bi-circle-fill" viewBox="0 0 16 16">
+            <circle cx="8" cy="8" r="8" />
+        </svg></div>
+    <div class="main-content">
+        <div class="upload">
+            <div class="box">
+                <p>Upload</p>
             </div>
-            <div class="filter">
-                <p>Filter</p>
+            <div>
+                <ul>
+                    <p>10 filer valda</p>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
+                </ul>
             </div>
-            <div class="crop">
+        </div>
+        <div class="filter">
+            <form class="color-handling">
+                <p>Färghantering</p>
+                <input type="radio" id="desaturate" name="filter">
+                <label for="desaturate">Desaturera (gråskala)</label>
+                <br>
+                <input type="radio" id="tint" name="filter">
+                <label for="tint">Applicera färgton(tint)</label>
 
+                <div class="color-options">
+                    <label for="choice">Välj färg</label>
+                    <input type="radio" id="red" name="choice" value="1">
+                    <label for="red" class="color-circle red"></label>
+
+                    <input type="radio" id="yellow" name="choice" value="2">
+                    <label for="yellow" class="color-circle yellow"></label>
+
+                    <input type="radio" id="blue" name="choice" value="3">
+                    <label for="blue" class="color-circle blue"></label>
+                    <br>
+                    <label for="intensity">Intensitet</label>
+                    <input type="range" name="intensity" min="0" max="100" step="5">
+                </div>
+            </form>
+            <div class="photos">
+                <div class="original">
+                    <img src="img/original.png">
+                    Original
+                </div>
+                <div class="tinted">
+                    <img src="img/tint.png">
+                    Förhandsvisning
+                </div>
             </div>
-            <div class="save-settings">
-                <p>save settings</p>
-            </div>
+        </div>
+        <div class="crop">
+            <form class="size-settings">
+                <select name="changephoto">
+                    <optgroup label="Ändra bild">
+                        <option value="crop">Beskär</option>
+                        <option value="resolution">Ändra upplösning</option>
+                        <option value="size">Ändra storlek</option>
+                    </optgroup>
+                </select>
+            </form>
+        </div>
+        <div class="save-settings">
+            <p>save settings</p>
         </div>
         <div class="buttons">
-            <button>Skriv ut</button>
-            <button>Tillämpa</button>
+            <input class="button" type="button" value="Skriv ut">
+            <input class="button" type="button" value="Tillämpa">
         </div>
+    </div>
+
 </body>
 
 </html>
