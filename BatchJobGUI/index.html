@@ -119,9 +119,45 @@
                 </div>
             </form>
         </div>
-        <div class="save-settings">
-            <p>save settings</p>
+        
+        <div class="upload">
+            <div>
+                <div>
+                    <p>Hantera utdata</p>
+                </div>
+                <div>
+                    <p>Mapp: C:/Användare/Namn/MinaBilder</p>
+                    <input type="button" value="Bläddra">
+                </div>
+
+                <div>
+                    <p>Format: </p>
+                    <form action="https://yrgo-web-services.netlify.app/forms" method="post">
+                        <p>
+                            <select name="characterSelect">
+                                <option value="JPG">JPG</option>
+                                <option value="PNG">PNG</option>
+                                <option value="TIFF">TIFF</option>
+                                <option value="WEBP">WEBP</option>
+                            </select>
+                        </p>
+                    </form>
+                </div>
+
+                <div>
+                    <p>Komprimering:
+                        <input type="radio" name="radio1">
+                        Låg
+                        <input type="radio" name="radio2">
+                        Mellan
+                        <input type="radio" name="radio3">
+                        Hög
+                    </p>
+                </div>
+
+            </div>
         </div>
+
         <div class="buttons">
             <input class="button" type="button" value="Skriv ut">
             <input class="button" type="button" value="Tillämpa">
