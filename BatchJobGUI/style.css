@@ -92,7 +92,7 @@ img {
     margin-left: 2rem;
 }
 
-/* Grundstil för färgknappar */
+/* Utseende för knappar*/
 .color-circle {
     display: inline-block;
     width: 10px;
@@ -105,7 +105,7 @@ img {
     transition: border 0.2s ease;
 }
 
-/* Färger */
+
 .color-circle.red {
     background-color: orangered;
 }
@@ -129,11 +129,29 @@ input[type="radio"]:checked + .color-circle {
     grid-column: 3/6;
     margin: 1rem;
     padding: 1rem;
+    display: flex;
     background-color: #ececec;
     border-style: outset;
     border-color: black;
     border-radius: 10px;
     box-shadow: 0px 2px 2px 0px darkgray;
+    font-size: x-small;
+}
+
+.size-settings {
+    display: flex;
+    flex-direction: column; 
+    align-content: space-evenly;
+}
+
+.checkprop {
+    display: flex;
+    align-items:center;
+}
+
+.whiteframe {
+    display: flex;
+    align-items: center;
 }
 
 .save-settings {
