@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* typsnitt */
 body {
     font-family: 'Inter', sans-serif;
@@ -12,10 +12,9 @@ p {
     line-height: normal;
 }
 
-=======
+
 body {
     background-color: #d6d6d6;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .head {
@@ -28,7 +27,7 @@ body {
 }
 
 
->>>>>>> b3a0e9fc0c7bf72f70ef5cfeeddcc82d5ee60da0
+
 .main-content {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -224,8 +223,7 @@ li::before {
     background-size: contain;
     background-repeat: no-repeat;
 }
-<<<<<<< HEAD
-=======
+
 
 .buttons {
     grid-column: 5/6;
@@ -244,4 +242,4 @@ li::before {
 p {
     font-family: Arial, Helvetica, sans-serif;
 }
->>>>>>> b3a0e9fc0c7bf72f70ef5cfeeddcc82d5ee60da0
+
