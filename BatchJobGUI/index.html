@@ -18,9 +18,9 @@
     <div class="main-content">
         <div class="upload">
             <div class="box">
-                    <img src="img/flat-color-icons--folder.svg">
+                <img src="img/flat-color-icons--folder.svg">
                 <p>
-                        Dra filer hit eller tryck för att välja</p>
+                    Dra filer hit eller tryck för att välja</p>
             </div>
             <div>
                 <ul>
@@ -36,19 +36,21 @@
                     <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
                     <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
                 </ul>
-                    <div class="right-side-button">
-                        <input type="button" value="Rensa alla">
-                    </div>
+                <div class="right-side-button">
+                    <input type="button" value="Rensa alla">
+                </div>
             </div>
         </div>
         <div class="filter">
             <form class="color-handling">
-                <p>Färghantering</p>
-                <input type="radio" id="desaturate" name="filter">
-                <label for="desaturate">Desaturera (gråskala)</label>
-                <br>
-                <input type="radio" id="tint" name="filter">
-                <label for="tint">Applicera färgton(tint)</label>
+                <div class="filter-choice">
+                    <p>Färghantering</p>
+                    <input type="radio" id="desaturate" name="filter">
+                    <label for="desaturate">Desaturera (gråskala)</label>
+                    <br>
+                    <input type="radio" id="tint" name="filter">
+                    <label for="tint">Applicera färgton(tint)</label>
+                </div>
 
                 <div class="color-options">
                     <label for="choice">Välj färg</label>
@@ -79,29 +81,29 @@
         <div class="crop">
             <form class="size-settings">
                 <select name="changephoto">
-                    <option value="">--Ändra bild--</option>
+                    <option disabled selected>Ändra bild</option>
                     <option value="crop">Beskär</option>
                     <option value="resolution">Ändra upplösning</option>
                     <option value="size">Ändra storlek</option>
                 </select>
-                <br>
-                <label for="format">Format</label>
                 <select name="format">
+                    <option disabled selected>Format</option>
                     <option value="dpi">72 dpi</option>
+                    <option value="dp2">300 dpi</option>
                 </select>
                 <div class="checkprop">
                     <input type="checkbox" id="proportions">
                     <label for="proportions">Behåll proportioner</label>
                 </div>
                 <select name="rotate">
-                    <option value="">--Rotera bild--</option>
+                    <option disabled selected>Rotera bild</option>
                     <option value="0">0°</option>
                     <option value="90">90°</option>
                     <option value="180">180°</option>
                     <option value="270">270°</option>
                 </select>
                 <select name="mirror">
-                    <option value="">--Spegelvänd bild--</option>
+                    <option disabled selected>Spegelvänd bild</option>
                     <option value="horisontal">Horisontellt</option>
                     <option value="vertical">Vertikalt</option>
                 </select>
@@ -119,7 +121,7 @@
                 </div>
             </form>
         </div>
-        
+
         <div class="save-settings">
             <div>
                 <div>
