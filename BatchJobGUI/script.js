@@ -7,6 +7,6 @@ execButton.addEventListener("click", () => {
 })
 
 function showPopup() {
-    popup.style.display = "block";
+    popup.style.display = "flex";
     overlay.style.display= "block";
 }
