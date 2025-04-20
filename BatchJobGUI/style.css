@@ -67,7 +67,7 @@ p {
     border-color: black;
     border-radius: 5px;
     box-shadow: 0px 2px 2px 0px darkgray;
-    font-size: x-small;
+    font-size: small;
 }
 
 .filter p {
@@ -80,7 +80,7 @@ p {
 }
 
 .photos img {
-    max-width: 80px;
+    max-width: 90px;
     margin: 0.5rem;
     margin-top: 1rem;
 }
@@ -139,7 +139,7 @@ p {
     background-color: royalblue;
 }
 
-/* Markerad "radioknapp" – när input är checked, ge label en kant */
+/* Markerad "radioknapp" – när input är checked får label en kant */
 input[type="radio"]:checked + .color-circle {
     border: 2px solid black;
 }
@@ -166,7 +166,7 @@ input[type="radio"]:checked + .color-circle {
 }
 
 .wrapcrop img {
-    width: 200px;
+    width: 220px;
     margin-top: 0.5rem;
     margin-right: 0.5rem;
 }
@@ -239,7 +239,6 @@ li::before {
     background-repeat: no-repeat;
 }
 
-
 .buttons input {
     padding: 1rem;
     padding-left: 2rem;
@@ -247,7 +246,7 @@ li::before {
     background-color: #ececec;
     border-radius: 5px;
     box-shadow: 0px 2px 2px 0px darkgray;
-    font-size: x-small;
+    font-size: small;
 }
 
 
@@ -270,6 +269,10 @@ li::before {
     border-color: black;
     border-radius: 5px;
     box-shadow: 0px 2px 2px 0px darkgray;
+}
+
+#close img {
+    width: 5px;
 }
 
 .overlay {
