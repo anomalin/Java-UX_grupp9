@@ -156,7 +156,7 @@ input[type="radio"]:checked + .color-circle {
     border-color: black;
     border-radius: 5px;
     box-shadow: 0px 2px 2px 0px darkgray;
-    font-size: x-small;
+    font-size: small;
     justify-content: space-between;
 }
 
@@ -199,15 +199,17 @@ input[type="radio"]:checked + .color-circle {
     box-shadow: 0px 2px 2px 0px darkgray;
 }
 
-.buttons {
+.printoption {
     grid-column: 5/6;
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     gap: 1rem;
     margin-right: 1rem;
     background-color: #d6d6d6;
     padding: 0.5rem;
     text-align: end;
+    font-size: small;
 }
 
 .right-side-button {
