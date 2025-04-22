@@ -25,16 +25,16 @@
             <div>
                 <ul>
                     <p>10 filer valda</p>
-                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
-                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon" </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon"> </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon"> </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon"> </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon"> </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon"> </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon"> </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon"> </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon"> </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon"> </li>
+                    <li>bild 1 <img src="img/mage--trash-fill.svg" alt="trash icon" class="trash-icon"> </li>
                 </ul>
                 <div class="right-side-button">
                     <input type="button" value="Rensa alla">
@@ -132,38 +132,40 @@
                 <div>
                     <p>Hantera utdata</p>
                 </div>
-                <div>
-                    <p>Mapp: C:/Användare/Namn/MinaBilder</p>
-                    <input type="button" value="Bläddra">
-                </div>
+                <div class="export-choice">
+                    <div>
+                        <p>Mapp: C:/Användare/Namn/MinaBilder</p>
+                        <input type="button" value="Bläddra">
+                    </div>
 
-                <div>
-                    <p>Format: </p>
-                    <form action="https://yrgo-web-services.netlify.app/forms" method="post">
-                        <p>
-                            <select name="characterSelect">
-                                <option value="JPG">JPG</option>
-                                <option value="PNG">PNG</option>
-                                <option value="TIFF">TIFF</option>
-                                <option value="WEBP">WEBP</option>
-                            </select>
+                    <div>
+                        <p>Format: </p>
+                        <form action="https://yrgo-web-services.netlify.app/forms" method="post">
+                            <p>
+                                <select name="characterSelect">
+                                    <option value="JPG">JPG</option>
+                                    <option value="PNG">PNG</option>
+                                    <option value="TIFF">TIFF</option>
+                                    <option value="WEBP">WEBP</option>
+                                </select>
+                            </p>
+                        </form>
+                    </div>
+
+                    <div>
+                        <p>Komprimering:
+                            <input type="radio" name="radio1">
+                            Låg
+                            <input type="radio" name="radio2">
+                            Mellan
+                            <input type="radio" name="radio3">
+                            Hög
                         </p>
-                    </form>
+                    </div>
                 </div>
-
-                <div>
-                    <p>Komprimering:
-                        <input type="radio" name="radio1">
-                        Låg
-                        <input type="radio" name="radio2">
-                        Mellan
-                        <input type="radio" name="radio3">
-                        Hög
-                    </p>
-                </div>
-
             </div>
         </div>
+
 
         <div class="printoption">
             <div class="savecheck">
